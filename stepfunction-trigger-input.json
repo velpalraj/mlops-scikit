@@ -1,0 +1,28 @@
+{
+  "CB_Project_Name": "model-scikit",
+  "CB_GitHub_URL": "https://github.com/velpalraj/mlops-scikit",
+  "CB_Branch_Name": "main",
+  "CB_CodeBuild_Image_URI": "aws/codebuild/python:3.6.5-1.3.2",
+  "CB_Training_Image_Version_Tag": "1",
+  "SM_Hyperparameters": {
+    "learning_rate": "0.05",
+    "test_rate": "0.9"
+  },
+  "SM_Source_Bucket_Name": "mlopsscikitinput",
+  "SM_Output_Bucket_Name": "mlopsscikitoutput",
+  "SM_SageMaker_Role_ARN": "arn:aws:iam::227476638890:role/service-role/AmazonSageMaker-ExecutionRole-20181011T130931",
+  "MODEL_VERSION": "1-0",
+  "ENVIRONMENT": "DEV",
+  "INSTANCE_TYPE": "ml.m4.xlarge",
+  "INSTANCE_CNT": "1",
+  "Tags": [
+    {
+      "Key": "SM_User_Name",
+      "Value": "vel"
+    },
+    {
+      "Key": "SM_Email_ID",
+      "Value": "palrajs@amazon.com"
+    }
+  ]
+}
